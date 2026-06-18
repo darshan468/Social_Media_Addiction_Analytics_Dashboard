@@ -144,3 +144,18 @@ Applied:
 
 ```python
 SMOTE
+
+### 5. Model Training
+
+Models Evaluated:
+
+Model	Accuracy
+Random Forest	87.75%
+XGBoost	93.25%
+Best Performing Model
+
+🏆 XGBoost Classifier
+
+# Accuracy:
+
+93.25%
