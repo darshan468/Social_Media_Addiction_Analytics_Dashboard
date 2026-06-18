@@ -163,7 +163,7 @@ Risk Levels:
 # 7. Installation Guide
 
 Clone Repository:
-git clone https://github.com/darshan468/Social_Media_Addiction_Analytics_Dashboard/blob/main/README.md#project-description
+git clone https://github.com/darshan468/Social_Media_Addiction_Analytics_Dashboard
 
 Install Dependencies:
 pip install -r requirements.txt
