@@ -1,57 +1,34 @@
 # 📱 Social Media Addiction Analytics Dashboard
 
+## Project Description:
 An AI-powered analytics platform designed to identify, monitor, and predict social media addiction risk using Machine Learning, Behavioral Analytics, Explainable AI, Real-Time Monitoring, and Interactive Dashboards.
 
 ---
+# 1. Project Overview
+- End-to-end Data Analytics and Machine Learning solution.
+- Analyzes social media behavior patterns.
+- Identifies users at risk of addiction.
+- Includes Advanced Analytics, Machine Learning, User Segmentation, Anomaly Detection, SHAP Explainability, Real-Time Monitoring, Live Risk Prediction, and an upcoming RAG-based AI Assistant.
 
-## 🚀 Project Overview
-
-The Social Media Addiction Analytics Dashboard is an end-to-end data analytics and machine learning solution developed to analyze social media usage behavior and identify users at risk of social media addiction.
-
-The project combines:
-
-- Advanced Data Analytics
-- Machine Learning Models
-- User Segmentation
-- Anomaly Detection
-- Explainable AI (SHAP)
-- Real-Time Monitoring
-- Live Risk Prediction
-- RAG-Based Project Assistant (Upcoming)
-
-The dashboard enables organizations, researchers, educators, and digital wellness platforms to understand user behavior patterns and proactively detect addiction risks.
-
----
-
-## 🎯 Problem Statement
-
-Excessive social media usage can negatively impact:
-
+# 2. Problem Statement
+Explain how excessive social media usage impacts:
 - Mental Health
 - Sleep Quality
 - Productivity
 - Academic Performance
 - Digital Wellbeing
 
-Traditional analytics provide descriptive insights but fail to identify high-risk users in real time.
+Mention that traditional analytics only provide descriptive insights while this project provides predictive analytics.
 
-This project addresses that challenge by combining machine learning and behavioral analytics to generate actionable risk predictions.
-
----
-
-## 📊 Dataset Information
-
-### Dataset Used
-
-**Social Media User Behavior Dataset**
+# 3. Dataset Information
+Dataset Name:
+Social Media User Behavior Dataset
 
 Dataset Size:
-
-- 2,000 Users
+- 2000 Users
 - 34 Features
 
-### Key Features
-
+# Important Features:
 - Age
 - Gender
 - Country
@@ -69,137 +46,194 @@ Dataset Size:
 - Mood While Scrolling
 - Social Media Breaks
 
----
+# 4. Technology Stack
 
-## ⚙️ Technology Stack
-
-### Programming Language
-
+Programming:
 - Python 3.10+
 
-### Data Processing
-
+Data Processing:
 - Pandas
 - NumPy
 
-### Machine Learning
-
+Machine Learning:
 - Scikit-Learn
 - XGBoost
 - Isolation Forest
 - K-Means Clustering
 - SHAP
 
-### Data Visualization
-
+Visualization:
 - Plotly
 - Matplotlib
 
-### Dashboard
-
+Dashboard:
 - Streamlit
 
-### Model Deployment
-
+Model Deployment:
 - Joblib
 
-### Version Control
-
+Version Control:
 - Git
 - GitHub
 
----
+# 5. Machine Learning Pipeline
 
-## 🧠 Machine Learning Pipeline
-
-### 1. Data Cleaning
-
+Data Cleaning:
 - Missing Value Handling
 - Feature Engineering
 - Data Transformation
 - Risk Score Generation
 
-### 2. Exploratory Data Analysis
-
-Performed analysis on:
-
+EDA:
 - User Demographics
 - Platform Preferences
 - Usage Patterns
 - Addiction Risk Distribution
 - Mental Health Indicators
 
-### 3. Feature Engineering
-
-Created behavioral indicators including:
-
+Feature Engineering:
 - Addiction Score
 - Sleep Score
 - Screen Concern Score
 - Break Score
 
-### 4. Class Balancing
+Class Balancing:
+- SMOTE
 
-Applied:
-```python
-SMOTE
+Model Training Results:
+Random Forest Accuracy: 87.75%
+XGBoost Accuracy: 93.25%
 
-### 5. Model Training
+Best Model:
+XGBoost Classifier
 
-Models Evaluated:
+# 6. Dashboard Features
 
-Model	Accuracy
-Random Forest	87.75%
-XGBoost	93.25%
-Best Performing Model
+**Main Dashboard:**
+- User Statistics
+- Risk Level Distribution
+- Platform Usage Analysis
+- Daily Usage Patterns
+- Correlation Heatmap
+- Project Insights
 
-🏆 XGBoost Classifier
+# Machine Learning Insights:
+- Model Performance Comparison
+- Feature Importance
+- Accuracy Metrics
+- Business Insights
 
-# Accuracy:
+# User Segmentation:
+Using K-Means Clustering
 
-93.25%
+Segments:
+- Casual Users
+- Active Users
+- Heavy Users
+- High-Risk Users
 
-
-*📈 Dashboard Features*
-
-# 📊 Main Dashboard
-
-User Statistics
-Addiction Risk Distribution
-Platform Usage Analysis
-Daily Usage Patterns
-Correlation Heatmap
-Project Insights
-🤖 Machine Learning Insights
-Model Performance Comparison
-Feature Importance Analysis
-Accuracy Metrics
-Business Insights
-👥 User Segmentation
-
-Using:
-
-K-Means Clustering
-
-User groups are automatically segmented into:
-
-Casual Users
-Active Users
-Heavy Users
-High-Risk Users
-🚨 Anomaly Detection
-
-Using:
-
-Isolation Forest
-
-Detects:
-
-Unusual Usage Behavior
-Extremely High Session Times
-High Addiction Risk Outliers
+# Anomaly Detection:
+Using Isolation Forest
 
 Results:
+- Normal Users: 1900
+- Anomalies: 100
 
-Normal Users: 1900
-Anomalies: 100
+# SHAP Explainability:
+Top Features:
+1. Daily Usage Hours
+2. Average Session Duration
+3. Sessions Per Day
+4. Sleep Disruption
+5. Ad Click Rate
+
+# Real-Time Monitoring:
+- Live User Activity
+- Usage Trends
+- Streamed Records
+- Behavioral Changes
+
+# Live AI Predictions:
+Risk Levels:
+- Low
+- Medium
+- High
+- Severe
+
+# 7. Project Structure
+
+Social Media Addiction Analytics Dashboard
+├── Data
+│ └── social_media_processed.csv
+├── Models
+│ └── xgboost_model.pkl
+├── Dashboard
+│ ├── app.py
+│ ├── styles/style.css
+│ └── pages
+│ ├── 1_Machine_Learning_Insights.py
+│ ├── 2_User_Segmentation.py
+│ ├── 3_Anomaly_Detection.py
+│ ├── 4_SHAP_Insights.py
+│ ├── 5_Live_Risk_Prediction.py
+│ └── 6_Real_Time_Monitoring.py
+├── Streaming
+│ └── live_predictions.csv
+├── requirements.txt
+└── README.md
+
+# 8. Installation Guide
+
+Clone Repository:
+git clone https://github.com/yourusername/social-media-addiction-dashboard.git
+
+Install Dependencies:
+pip install -r requirements.txt
+
+Run:
+streamlit run Dashboard/app.py
+
+9. Key Results
+
+Users Analyzed:
+2000
+
+Average Usage:
+2.99 Hours/Day
+
+Average Addiction Score:
+24.8
+
+Model Accuracy:
+93.25%
+
+High-Risk Users:
+85+
+
+# 10. Future Enhancements
+
+- RAG-Based AI Assistant
+- Conversational Analytics Chatbot
+- LLM Integration
+- Real-Time API Streaming
+- Cloud Deployment
+- User Recommendation Engine
+- Wellness Intervention Suggestions
+
+## Developer Section
+
+Name:
+Darshan S
+
+Education:
+Artificial Intelligence & Data Science Student
+
+College:
+Prathyusha Engineering College
+
+Role:
+Aspiring Data Analyst | Machine Learning Enthusiast | AI Developer
+
+# License
+
+MIT License
