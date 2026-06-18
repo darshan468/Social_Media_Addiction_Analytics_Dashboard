@@ -117,13 +117,13 @@ XGBoost Classifier
 - Correlation Heatmap
 - Project Insights
 
-# Machine Learning Insights:
+**Machine Learning Insights:**
 - Model Performance Comparison
 - Feature Importance
 - Accuracy Metrics
 - Business Insights
 
-# User Segmentation:
+**User Segmentation:**
 Using K-Means Clustering
 
 Segments:
@@ -132,14 +132,14 @@ Segments:
 - Heavy Users
 - High-Risk Users
 
-# Anomaly Detection:
+**Anomaly Detection:**
 Using Isolation Forest
 
 Results:
 - Normal Users: 1900
 - Anomalies: 100
 
-# SHAP Explainability:
+**SHAP Explainability:**
 Top Features:
 1. Daily Usage Hours
 2. Average Session Duration
@@ -147,42 +147,20 @@ Top Features:
 4. Sleep Disruption
 5. Ad Click Rate
 
-# Real-Time Monitoring:
+**Real-Time Monitoring:**
 - Live User Activity
 - Usage Trends
 - Streamed Records
 - Behavioral Changes
 
-# Live AI Predictions:
+**Live AI Predictions:**
 Risk Levels:
 - Low
 - Medium
 - High
 - Severe
 
-# 7. Project Structure
-
-Social Media Addiction Analytics Dashboard
-├── Data
-│ └── social_media_processed.csv
-├── Models
-│ └── xgboost_model.pkl
-├── Dashboard
-│ ├── app.py
-│ ├── styles/style.css
-│ └── pages
-│ ├── 1_Machine_Learning_Insights.py
-│ ├── 2_User_Segmentation.py
-│ ├── 3_Anomaly_Detection.py
-│ ├── 4_SHAP_Insights.py
-│ ├── 5_Live_Risk_Prediction.py
-│ └── 6_Real_Time_Monitoring.py
-├── Streaming
-│ └── live_predictions.csv
-├── requirements.txt
-└── README.md
-
-# 8. Installation Guide
+# 7. Installation Guide
 
 Clone Repository:
 git clone https://github.com/yourusername/social-media-addiction-dashboard.git
@@ -193,7 +171,7 @@ pip install -r requirements.txt
 Run:
 streamlit run Dashboard/app.py
 
-9. Key Results
+# 8. Key Results
 
 Users Analyzed:
 2000
@@ -210,7 +188,7 @@ Model Accuracy:
 High-Risk Users:
 85+
 
-# 10. Future Enhancements
+# 9. Future Enhancements
 
 - RAG-Based AI Assistant
 - Conversational Analytics Chatbot
