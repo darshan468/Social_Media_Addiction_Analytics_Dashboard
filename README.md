@@ -141,7 +141,6 @@ Created behavioral indicators including:
 ### 4. Class Balancing
 
 Applied:
-
 ```python
 SMOTE
 
@@ -159,3 +158,48 @@ Best Performing Model
 # Accuracy:
 
 93.25%
+
+
+*📈 Dashboard Features*
+
+# 📊 Main Dashboard
+
+User Statistics
+Addiction Risk Distribution
+Platform Usage Analysis
+Daily Usage Patterns
+Correlation Heatmap
+Project Insights
+🤖 Machine Learning Insights
+Model Performance Comparison
+Feature Importance Analysis
+Accuracy Metrics
+Business Insights
+👥 User Segmentation
+
+Using:
+
+K-Means Clustering
+
+User groups are automatically segmented into:
+
+Casual Users
+Active Users
+Heavy Users
+High-Risk Users
+🚨 Anomaly Detection
+
+Using:
+
+Isolation Forest
+
+Detects:
+
+Unusual Usage Behavior
+Extremely High Session Times
+High Addiction Risk Outliers
+
+Results:
+
+Normal Users: 1900
+Anomalies: 100
